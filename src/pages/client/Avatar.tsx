@@ -2,7 +2,6 @@
 
 import AvatarImage from '../../../public/images/placeholder.jpg';
 
-
 const Avatar = () => {
   return (     
     <div className='rounded-full'>
