@@ -1,15 +1,13 @@
-'use client'
+"use client";
 
-import Container from "../Container"
+import Navbar from "./navbar/Navbar";
 
 const Home = () => {
   return (
-    <Container>
-      <div className="font-bold text-xl  text-green-500">
-        ini halaman home
-      </div>
-    </Container>
-  )
-}
+    <>
+      <Navbar/>
+    </>
+  );
+};
 
-export default Home
+export default Home;
