@@ -40,7 +40,7 @@ const Navbar = () => {
                 <Search />
               </div>
             </div>
-            <UserMenu />
+            <UserMenu  />
           </div>
         </Container>
       </div>

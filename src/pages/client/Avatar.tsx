@@ -8,8 +8,12 @@ interface AvatarInterface {
 
 const Avatar = () => {
   return (     
-    <div className='h-8 w-8'>
-        <img src={AvatarImage} alt="Placeholder" />
+    <div className='rounded-full'>
+        <img 
+            className='rounded-full h-7 w-7'
+            src={AvatarImage} 
+            alt="Placeholder" 
+        />
     </div>
   );
 }

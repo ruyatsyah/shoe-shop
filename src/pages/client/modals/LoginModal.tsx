@@ -12,12 +12,13 @@ import { FcGoogle } from "react-icons/fc";
 import { AiFillGithub } from "react-icons/ai";
 import { useRouter } from "next/navigation";
 
-import useLoginModal from "@"
+import useLoginModal from "../../../../hooks/useLoginModal"
+import useRegisterModal from '../../../../hooks/useRegisterModal'
 
 import Modal from "./Modal";
 import Input from "../inputs/Input";
-import Heading from "../Heading";
-import Button from "../Button";
+import Heading from "../../client/Heading";
+import Button from "../../client/Button";
 
 const LoginModal = () => {
   const router = useRouter();
