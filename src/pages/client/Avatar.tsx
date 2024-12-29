@@ -2,9 +2,6 @@
 
 import AvatarImage from '../../../public/images/placeholder.jpg';
 
-interface AvatarInterface {
-  src: string;
-}
 
 const Avatar = () => {
   return (     
